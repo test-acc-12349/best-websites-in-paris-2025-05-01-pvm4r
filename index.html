@@ -3,28 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Websites In Paris | Custom Web Development</title>
     <meta name="description" content="Professional web development services in Paris. Custom websites that are easy to use, responsive, and fast loading.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased bg-white text-gray-900">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-blue-600">
+                <a href="https://test-acc-12349.github.io/best-websites-in-paris-2025-05-01-pvm4r" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">
                     Best Websites Paris
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -34,13 +60,13 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
-                    Custom Websites For Your Business
+                    Transform Your Business with Custom Web Solutions
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">
-                    Professional web development services tailored for Paris businesses
+                    Expert web development services crafted specifically for Paris businesses. Elevate your online presence with stunning, high-performance websites that drive results.
                 </p>
-                <a href="https://sigmaseo.io" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Get Started Today
+                <a href="https://sigmaseo.io" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Start Your Digital Journey
                 </a>
             </div>
         </div>
@@ -49,33 +75,33 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Advanced Features for Modern Businesses</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-laptop-code text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
+                    <h3 class="text-xl font-semibold mb-4">Intuitive User Experience</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        Intuitive interfaces designed for the best user experience
+                        Streamlined interfaces designed with your users in mind. Boost engagement with easy navigation and clear calls-to-action that convert visitors into customers.
                     </p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-mobile-alt text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Responsive Design</h3>
+                    <h3 class="text-xl font-semibold mb-4">Responsive Design Excellence</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        Perfect display on all devices and screen sizes
+                        Perfectly optimized for all devices with fluid layouts that adapt seamlessly. From smartphones to desktops, your site will look and perform flawlessly.
                     </p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-rocket text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Fast Loading</h3>
+                    <h3 class="text-xl font-semibold mb-4">Lightning-Fast Performance</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        Optimized performance for lightning-fast page loads
+                        Optimized code and advanced caching techniques ensure blazing-fast load times. Keep visitors engaged with instant page transitions and smooth interactions.
                     </p>
                 </div>
             </div>
@@ -85,29 +111,93 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Benefits</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transform Your Business Impact</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-clock text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Save Time</h3>
-                    <p class="text-gray-600">Streamlined processes that save you valuable time</p>
+                    <h3 class="text-xl font-semibold mb-4">Maximize Efficiency</h3>
+                    <p class="text-gray-600">Reduce management time by 75% with our streamlined content management system and automated processes.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-chart-line text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Increase Conversions</h3>
-                    <p class="text-gray-600">Optimized for maximum conversion rates</p>
+                    <h3 class="text-xl font-semibold mb-4">Boost Conversion Rates</h3>
+                    <p class="text-gray-600">Experience up to 200% improvement in conversion rates with our optimized user journeys and strategic CTAs.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-star text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Professional Look</h3>
-                    <p class="text-gray-600">Premium design that reflects your brand</p>
+                    <h3 class="text-xl font-semibold mb-4">Premium Brand Image</h3>
+                    <p class="text-gray-600">Stand out with professional design that captures your brand essence and builds lasting customer trust.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The team transformed our outdated website into a modern, high-converting platform. Our online sales increased by 150% in just three months!"</p>
+                    <p class="font-semibold">Marie Laurent</p>
+                    <p class="text-sm text-gray-500">CEO, Laurent Boutique</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Their responsive design expertise helped us capture the mobile market. Mobile conversions are up 200% since launch."</p>
+                    <p class="font-semibold">Thomas Dubois</p>
+                    <p class="text-sm text-gray-500">Marketing Director, Tech Solutions Paris</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Outstanding service and support. The team went above and beyond to ensure our website perfectly represented our brand."</p>
+                    <p class="font-semibold">Sophie Martin</p>
+                    <p class="text-sm text-gray-500">Owner, Café Parisienne</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The SEO optimization has dramatically improved our visibility. We're now ranking #1 for our key search terms."</p>
+                    <p class="font-semibold">Pierre Renaud</p>
+                    <p class="text-sm text-gray-500">Founder, Digital Marketing Pro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Best Websites Paris</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">
+                    Founded in 2018, Best Websites Paris emerged from a vision to bridge the gap between technical excellence and creative design in the digital landscape. Our journey began with a small team of passionate developers and has grown into a full-service web development agency, serving hundreds of satisfied clients across Paris and beyond.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Our mission is to empower businesses with cutting-edge web solutions that drive real results. We believe in combining innovative technology with exceptional design to create websites that not only look stunning but also perform brilliantly. Our core values of transparency, creativity, and client success guide every project we undertake.
+                </p>
             </div>
         </div>
     </section>
@@ -117,29 +207,37 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">How long does it take to build a website?</h3>
-                    <p class="text-gray-600">Typically 4-8 weeks depending on project complexity and requirements.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What is your typical website development timeline?</h3>
+                    <p class="text-gray-600">Most projects are completed within 4-8 weeks, depending on complexity. We follow a structured process: 1 week for planning, 2-3 weeks for design, 2-3 weeks for development, and 1 week for testing and launch.</p>
                 </div>
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">Do you provide ongoing support?</h3>
-                    <p class="text-gray-600">Yes, we offer various maintenance and support packages.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What maintenance and support services do you offer?</h3>
+                    <p class="text-gray-600">We provide comprehensive support packages including regular updates, security monitoring, performance optimization, and content updates. Our team is available 24/7 for urgent issues.</p>
                 </div>
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">What's included in the service?</h3>
-                    <p class="text-gray-600">Design, development, testing, and deployment with SEO optimization.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">How do you handle website security?</h3>
+                    <p class="text-gray-600">Security is our top priority. We implement SSL certificates, regular security audits, automated backups, and advanced firewall protection. All our sites comply with GDPR requirements.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What is included in your SEO optimization?</h3>
+                    <p class="text-gray-600">Our SEO package includes keyword research, on-page optimization, meta tag optimization, site speed improvements, and mobile optimization. We also provide monthly performance reports.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">Do you offer custom design services?</h3>
+                    <p class="text-gray-600">Yes, all our designs are custom-created to match your brand identity. We work closely with you to understand your vision and create unique, engaging designs that stand out.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600 text-white">
+    <section class="py-24 bg-gradient-to-r from-blue-600 to-blue-700 text-white" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2000'); background-blend-mode: overlay;">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-            <p class="text-xl mb-12 opacity-90">Transform your online presence today</p>
-            <a href="https://sigmaseo.io" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                Contact Us Now
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Online Presence?</h2>
+            <p class="text-xl mb-12 opacity-90">Join hundreds of successful businesses who trust us with their digital success</p>
+            <a href="https://sigmaseo.io" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                Schedule Your Free Consultation
             </a>
         </div>
     </section>
@@ -158,22 +256,25 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/best-websites-in-paris-2025-05-01-pvm4r/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/best-websites-in-paris-2025-05-01-pvm4r/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/best-websites-in-paris-2025-05-01-pvm4r/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
@@ -182,5 +283,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
